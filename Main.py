@@ -7,7 +7,7 @@ class Node:
   """
   def __init__(self, data):
     self.data = data
-    self.next = Nne
+    self.next = None
 
 
 class Queue:
