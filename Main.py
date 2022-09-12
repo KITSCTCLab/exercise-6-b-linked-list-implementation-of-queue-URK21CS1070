@@ -7,7 +7,7 @@ class Node:
   """
   def __init__(self, data):
     self.data = data
-    self.next = None
+    self.next = Nne
 
 
 class Queue:
@@ -65,4 +65,4 @@ for i in range(len(operations)):
     queue.enqueue(int(data[i]))
   elif operations[i] == "dequeue":
     queue.dequeue()
-queu.status()
+queue.status()
